@@ -1,0 +1,20 @@
+CountPokeBar < UIProgressBar
+  height: 16
+  background-color: red
+  image-source: /images/ui/countpokebar
+  image-border: 1
+  font: verdana-11px-rounded
+  text-offset: 0 2
+
+  $!on:
+    visible: false
+    margin-top: 0
+    margin-bottom: 0
+    height: 0
+
+CountPokeRect < UIProgressRect
+  anchors.fill: parent
+  phantom: true
+  color: white
+  background-color: #00000088
+  font: verdana-11px-rounded

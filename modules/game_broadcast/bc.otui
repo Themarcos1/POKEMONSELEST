@@ -1,0 +1,18 @@
+broadcastWindow < UIWidget
+
+
+opacity: 0.85
+anchors.bottom: parent.bottom
+anchors.left: parent.left
+anchors.right: parent.right
+border: 0 white
+witdh: 600
+margin: 30
+border: 2 black
+
+text-align: center
+font: sans-bold-16px_cp1252
+background-color: #b40000
+focusable: false
+phantom: false
+draggable: true

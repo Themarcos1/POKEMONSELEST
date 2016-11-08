@@ -1,0 +1,8 @@
+Module
+  name: game_broadcast
+  description: Show broadcasts and other messages in window  reloadable: true
+  sandboxed: true
+  autoload: true
+  scripts: [bc]
+  @onLoad: init()
+  @onUnload: terminate()

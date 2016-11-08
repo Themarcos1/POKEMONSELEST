@@ -1,0 +1,24 @@
+HorizontalcdBarWindow < UIWindow
+  font: verdana-11px-antialised
+  size: 200 200
+  opacity: 1
+  color: white
+  text-offset: 0 4
+  text-align: top
+  image-source: /images/ui/cdbarwindow
+  image-border: 1
+  image-border-top: 1
+  opacity: 1
+  padding-top: 1
+  padding-left: 5
+  padding-right: 5
+  padding-bottom: 1
+
+  $disabled:
+    color: #aaaaaa88
+
+  $dragging:
+    opacity: 0.8
+
+HorizontalcdBarMainWindow < Window
+  anchors.centerIn: parent

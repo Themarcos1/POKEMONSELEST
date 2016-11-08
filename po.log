@@ -1,0 +1,48 @@
+== application started at Dec 26 2015 14:08:33
+P.O 1.0 rev 0 (devel) built on May 19 2014 for arch x86
+ERROR: Unable to load module 'client': LUA ERROR:
+/corelib/settings.lua:44: attempt to call field 'exists' (a nil value)
+stack traceback:
+	[C]: in function 'exists'
+	/corelib/settings.lua:44: in function 'get'
+	/corelib/settings.lua:77: in function 'getSize'
+	/client/client.lua:68: in function 'init'
+	/client/client.otmod:9:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:42: in main chunk
+FATAL ERROR: Unable to load 'client' module
+== application started at Dec 26 2015 14:08:46
+P.O 1.0 rev 0 (devel) built on May 20 2014 for arch x86
+ERROR: Unable to load module 'client': LUA ERROR:
+/corelib/settings.lua:44: attempt to call field 'exists' (a nil value)
+stack traceback:
+	[C]: in function 'exists'
+	/corelib/settings.lua:44: in function 'get'
+	/corelib/settings.lua:77: in function 'getSize'
+	/client/client.lua:68: in function 'init'
+	/client/client.otmod:9:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:42: in main chunk
+FATAL ERROR: Unable to load 'client' module
+== application started at Dec 26 2015 14:14:45
+P.O 1.0 rev 0 (devel) built on May 19 2014 for arch x86
+ERROR: Unable to load module 'game_things': LUA ERROR: /game_things/things.lua:58: 'end' expected (to close 'function' at line 20) near '<eof>'
+stack traceback:
+	[C]: ?
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:38: in main chunk
+ERROR: Unable to load module 'gamelib': dependency 'game_things' has failed to load
+FATAL ERROR: Unable to load 'gamelib' module
+== application started at Dec 26 2015 14:36:02
+P.O 1.0 rev 0 (devel) built on May 19 2014 for arch x86
+ERROR: Unable to load module 'client': LUA ERROR:
+/corelib/settings.lua:44: attempt to call field 'exists' (a nil value)
+stack traceback:
+	[C]: in function 'exists'
+	/corelib/settings.lua:44: in function 'get'
+	/corelib/settings.lua:77: in function 'getSize'
+	/client/client.lua:68: in function 'init'
+	/client/client.otmod:9:[@onLoad]:1: in main chunk
+	[C]: in function 'ensureModuleLoaded'
+	/init.lua:42: in main chunk
+FATAL ERROR: Unable to load 'client' module

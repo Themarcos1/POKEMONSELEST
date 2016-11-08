@@ -1,0 +1,33 @@
+items
+  13459
+    opacity: 0.7
+    full-ground: false
+  
+creatures
+  908
+    opacity: 0.7
+  595
+    opacity: 0.7
+  1430
+    opacity: 0.5
+  399
+    opacity: 0.7
+  416
+    opacity: 0.7
+  1473
+    opacity: 0.7
+  1428
+    opacity: 0.5
+  1474
+    opacity: 0.7
+  1572
+    opacity: 0.7
+  1288
+    opacity: 0.7
+  
+effects
+  21
+    opacity: 0.5
+  
+missiles
+  
